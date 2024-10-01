@@ -1,0 +1,22 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.header{
+background-color: rgb(238, 101, 83);
+text-align: center;
+position: relative;
+font-size:larger;
+color: rgb(255, 255, 255);
+padding: 20px;
+}
+.main-article{
+    background-color: rgb(117, 190, 88);
+    text-align: left;
+    position: relative;
+    font-size:larger;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    }   
+}
