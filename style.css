@@ -1,22 +1,42 @@
-.container{
-    display:flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.header{
-background-color: rgb(238, 101, 83);
-text-align: center;
-position: relative;
-font-size:larger;
-color: rgb(255, 255, 255);
-padding: 20px;
-}
-.main-article{
-    background-color: rgb(117, 190, 88);
-    text-align: left;
-    position: relative;
-    font-size:larger;
-    color: rgb(0, 0, 0);
-    padding: 20px;
-    }   
-}
+.header {
+        text-align: center;
+            background-color: rgb(230, 90, 90);
+            color: rgb(255, 255, 255);
+            padding: 15px; /** "tamanho da caixa" **/
+            }
+            .container {
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+            }
+            .content{
+                display: flex;
+                gap: 15px;
+            }
+            .main-article{
+                background-color: rgb(78, 235, 104);
+                padding: 15px;
+                display: flex;
+                width: 54%;
+            }
+            .sidebar {
+             background-color: rgb(234, 253, 126); 
+             padding: 15px;
+             display: flex;
+             width: 46%;
+               
+            }
+            .articles {
+                display: flex;
+                gap: 15px;
+            }
+            .article{
+                background-color: rgb(28, 166, 221);   
+                display: flex;  
+                padding: 15px;
+                width: 33%;
+            }
+            body{
+            background-color: rgb(228, 234, 240);    
+            }
